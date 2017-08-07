@@ -46,3 +46,6 @@
 *.class
 
 *.iml
+*.lst
+provider/target/*
+consumer/target/*

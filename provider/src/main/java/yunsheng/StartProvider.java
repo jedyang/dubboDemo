@@ -9,7 +9,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class StartProvider {
     public static void main (String[] args){
+
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"dubbo-provider.xml"});
+
 
         context.start();
         System.out.println("dubbo-provider 启动,按任意键退出--");

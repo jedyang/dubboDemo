@@ -10,7 +10,7 @@
     <dubbo:application name="dubbo-consumer" />
 
     <!-- 使用zookeeper注册中心暴露发现服务地址 -->
-    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
+    <dubbo:registry protocol="zookeeper" address="10.135.7.56:2181" />
 
     <dubbo:reference id="helloService" interface="yunsheng.api.HelloService" />
 
